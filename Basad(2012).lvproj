@@ -29,7 +29,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -152,6 +151,7 @@ KeepAliveTimeout 60
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+		<Item Name="CameraInputsRegulator.vi" Type="VI" URL="../CameraInputsRegulator.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
@@ -280,8 +280,6 @@ KeepAliveTimeout 60
 				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
 				<Item Name="NetComm_UsageReport_ResourceType.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_ResourceType.ctl"/>
 				<Item Name="NetComm_UsageReport_report.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/NetworkCommunication/NetComm_UsageReport_report.vi"/>
-				<Item Name="WPI_RobotDriveOpen2Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2Motor.vi"/>
-				<Item Name="WPI_RobotDriveOpen2MotorWithJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithJaguar.vi"/>
 				<Item Name="WPI_RobotDriveDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveDevRef.ctl"/>
 				<Item Name="WPI_MotorControlDeviceRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDeviceRef.ctl"/>
 				<Item Name="FPGA_TypedefDigitalModule.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/SystemInterfaces/Typedef/FPGA_TypedefDigitalModule.ctl"/>
@@ -361,9 +359,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_RobotDriveRefNum Registry Read Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Read Name.vi"/>
 				<Item Name="WPI_RobotDriveGetSetRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveGetSetRefNum.vi"/>
 				<Item Name="WPI_MotorControlDisable.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/MotorControl/WPI_MotorControlDisable.vi"/>
-				<Item Name="WPI_RobotDriveOpen2MotorWithVictor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithVictor.vi"/>
-				<Item Name="WPI_RobotDriveOpen2MotorWithCANJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithCANJaguar.vi"/>
-				<Item Name="WPI_RobotDriveOpen2MotorWithExistingMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen2MotorWithExistingMotors.vi"/>
 				<Item Name="WPI_RobotDriveRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRefNum Registry Set.vi"/>
 				<Item Name="WPI_RobotDriveRegisterEachMotor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveRegisterEachMotor.vi"/>
 				<Item Name="WPI_RobotDriveMotorSelectorEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveMotorSelectorEnum.ctl"/>
@@ -572,6 +567,11 @@ KeepAliveTimeout 60
 				<Item Name="WPI_DigitalModuleDIOAllocator.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleDIOAllocator.vi"/>
 				<Item Name="WPI_DigitalModuleValidateDIOChannel.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalModule/WPI_DigitalModuleValidateDIOChannel.vi"/>
 				<Item Name="WPI_DigitalInputOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DigitalInput/WPI_DigitalInputOpen.vi"/>
+				<Item Name="WPI_RobotDriveOpen4MotorWithExistingMotors.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithExistingMotors.vi"/>
+				<Item Name="WPI_RobotDriveOpen4MotorWithCANJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithCANJaguar.vi"/>
+				<Item Name="WPI_RobotDriveOpen4MotorWithVictor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithVictor.vi"/>
+				<Item Name="WPI_RobotDriveOpen4MotorWithJaguar.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4MotorWithJaguar.vi"/>
+				<Item Name="WPI_RobotDriveOpen4Motor.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/RobotDrive/WPI_RobotDriveOpen4Motor.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -582,6 +582,10 @@ KeepAliveTimeout 60
 			<Item Name="Kinect Gesture Processing.vi" Type="VI" URL="../Kinect Gesture Processing Example/Kinect Gesture Processing.vi"/>
 			<Item Name="Joints to Angle YZ.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle YZ.vi"/>
 			<Item Name="Joints to Angle XY.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle XY.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
