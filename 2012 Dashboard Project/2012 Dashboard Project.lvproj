@@ -31,6 +31,8 @@
 		<Item Name="Mark Target Centers.vi" Type="VI" URL="../Mark Target Centers.vi"/>
 		<Item Name="Draw Target.vi" Type="VI" URL="../Draw Target.vi"/>
 		<Item Name="Get Correct Target.vi" Type="VI" URL="../Get Correct Target.vi"/>
+		<Item Name="hotSpotsFinder.vi" Type="VI" URL="../hotSpotsFinder.vi"/>
+		<Item Name="hotSpotsD2T.vi" Type="VI" URL="../hotSpotsD2T.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>

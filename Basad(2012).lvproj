@@ -125,6 +125,8 @@ KeepAliveTimeout 60
 			<Item Name="Shooting" Type="Folder">
 				<Item Name="Shoot.vi" Type="VI" URL="../Shoot.vi"/>
 				<Item Name="Set RPM.vi" Type="VI" URL="../Set RPM.vi"/>
+				<Item Name="LanchAngleAndSpeed_with DRAG.vi" Type="VI" URL="../LanchAngleAndSpeed_with DRAG.vi"/>
+				<Item Name="LanchAngleAndSpeed.vi" Type="VI" URL="../LanchAngleAndSpeed.vi"/>
 			</Item>
 			<Item Name="General" Type="Folder">
 				<Item Name="Button2Toggle.vi" Type="VI" URL="../Button2Toggle.vi"/>
