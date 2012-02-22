@@ -43,7 +43,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -148,6 +147,8 @@ KeepAliveTimeout 60
 				<Item Name="SimPID.vi" Type="VI" URL="../SimPID.vi"/>
 				<Item Name="Single Button Number.vi" Type="VI" URL="../Single Button Number.vi"/>
 				<Item Name="UpDownNone.vi" Type="VI" URL="../UpDownNone.vi"/>
+				<Item Name="SIMPID(v.2).vi" Type="VI" URL="../SIMPID(v.2).vi"/>
+				<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
 			</Item>
 			<Item Name="Drive" Type="Folder">
 				<Item Name="Dead Band.vi" Type="VI" URL="../Dead Band.vi"/>
@@ -158,6 +159,7 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Collecting" Type="Folder">
 				<Item Name="Ball Stack.vi" Type="VI" URL="../Ball Stack.vi"/>
+				<Item Name="New Ball Stack.vi" Type="VI" URL="../New Ball Stack.vi"/>
 			</Item>
 			<Item Name="Traget" Type="Folder">
 				<Item Name="Servo-Centerization.vi" Type="VI" URL="../Servo-Centerization.vi"/>
@@ -170,7 +172,6 @@ KeepAliveTimeout 60
 			</Item>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="New Ball Stack.vi" Type="VI" URL="../New Ball Stack.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
