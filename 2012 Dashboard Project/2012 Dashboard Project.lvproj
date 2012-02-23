@@ -81,6 +81,7 @@
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="IMAQ ReadFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile"/>
+				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -100,6 +101,7 @@
 			<Item Name="Single Button Number.vi" Type="VI" URL="../Single Button Number.vi"/>
 			<Item Name="UDP Send.vi" Type="VI" URL="../UDP Send.vi"/>
 			<Item Name="Button2Toggle.vi" Type="VI" URL="../../Button2Toggle.vi"/>
+			<Item Name="ping.vi" Type="VI" URL="../ping.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
