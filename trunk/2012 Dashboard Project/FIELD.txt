@@ -1,0 +1,9 @@
+right bottom:516*387
+left top : 488*296
+
+effctive:
+X- 516-488 =
+Y-
+
+60ft=18.288
+30ft=9.144
