@@ -11,20 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Override Joystick.vi" Type="VI" URL="../Override Joystick.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="WPI_JoystickScaleTo100PlusMinRange.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickScaleTo100PlusMinRange.vi"/>
-				<Item Name="WPI_JoystickDeviceEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceEnum.ctl"/>
-				<Item Name="WPI_JoystickDeviceDataRaw.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDeviceDataRaw.ctl"/>
-				<Item Name="WPI_JoystickCacheOp.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickCacheOp.ctl"/>
-				<Item Name="WPI_JoystickCache.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickCache.vi"/>
-				<Item Name="WPI_JoystickButtonState.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickButtonState.ctl"/>
-				<Item Name="WPI_JoystickDevRef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickDevRef.ctl"/>
-				<Item Name="WPI_JoystickGet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickGet.vi"/>
-			</Item>
-			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
@@ -142,12 +129,13 @@ KeepAliveTimeout 60
 				<Item Name="LanchAngleAndSpeed.vi" Type="VI" URL="../LanchAngleAndSpeed.vi"/>
 			</Item>
 			<Item Name="General" Type="Folder">
+				<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../Button2ToggleV2.1.vi"/>
+				<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
 				<Item Name="Button2Toggle.vi" Type="VI" URL="../Button2Toggle.vi"/>
+				<Item Name="SIMPID(v.2).vi" Type="VI" URL="../SIMPID(v.2).vi"/>
 				<Item Name="SimPID.vi" Type="VI" URL="../SimPID.vi"/>
 				<Item Name="Single Button Number.vi" Type="VI" URL="../Single Button Number.vi"/>
 				<Item Name="UpDownNone.vi" Type="VI" URL="../UpDownNone.vi"/>
-				<Item Name="SIMPID(v.2).vi" Type="VI" URL="../SIMPID(v.2).vi"/>
-				<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../Button2ToggleV2.0.vi"/>
 			</Item>
 			<Item Name="Drive" Type="Folder">
 				<Item Name="Dead Band.vi" Type="VI" URL="../Dead Band.vi"/>
@@ -155,6 +143,7 @@ KeepAliveTimeout 60
 				<Item Name="Accelration Control (by Throttle).vi" Type="VI" URL="../Accelration Control (by Throttle).vi"/>
 				<Item Name="Stabilize.vi" Type="VI" URL="../Stabilize.vi"/>
 				<Item Name="Co-Pilot Analyze.vi" Type="VI" URL="../Co-Pilot Analyze.vi"/>
+				<Item Name="Override Joystick.vi" Type="VI" URL="../Override Joystick.vi"/>
 			</Item>
 			<Item Name="Collecting" Type="Folder">
 				<Item Name="Ball Stack.vi" Type="VI" URL="../Ball Stack.vi"/>
@@ -665,7 +654,6 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Kinect Gesture Processing.vi" Type="VI" URL="../Kinect Gesture Processing Example/Kinect Gesture Processing.vi"/>
 			<Item Name="VBus to Relay.vi" Type="VI" URL="../VBus to Relay.vi"/>
-			<Item Name="Override Joystick.vi" Type="VI" URL="../Override Joystick.vi"/>
 			<Item Name="Align Cup.vi" Type="VI" URL="../Align Cup.vi"/>
 			<Item Name="TimeTasker.vi" Type="VI" URL="../TimeTasker.vi"/>
 			<Item Name="Moderate Turret Microswitches.vi" Type="VI" URL="../Moderate Turret Microswitches.vi"/>
