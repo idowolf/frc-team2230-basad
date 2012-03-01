@@ -42,7 +42,6 @@
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Enabled" Type="Bool">true</Property>
 		<Property Name="target.IOScan.Faults" Type="Str"></Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
@@ -657,11 +656,6 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CANJaguar_SetSpeedReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/Configuration/WPI_CANJaguar_SetSpeedReference.vi"/>
 				<Item Name="WPI_CANJaguar_SpeedReference.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CANJaguar_SpeedReference.ctl"/>
 				<Item Name="WPI_GyroSetGain.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroSetGain.vi"/>
-				<Item Name="SkeletonVertexTrackState.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/SkeletonVertexTrackState.ctl"/>
-				<Item Name="Skeleton Vertex Index.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/Skeleton Vertex Index.ctl"/>
-				<Item Name="WPI_DriverStationGet Kinect Vertices.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Kinect Vertices.vi"/>
-				<Item Name="WPI_DriverStationGet Kinect Extra.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Kinect Extra.vi"/>
-				<Item Name="SkeletonTrackState.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/SkeletonTrackState.ctl"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -671,15 +665,10 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="Kinect Gesture Processing.vi" Type="VI" URL="../Kinect Gesture Processing Example/Kinect Gesture Processing.vi"/>
 			<Item Name="VBus to Relay.vi" Type="VI" URL="../VBus to Relay.vi"/>
-			<Item Name="Joints to Angle YZ.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle YZ.vi"/>
-			<Item Name="Joints to Angle XY.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle XY.vi"/>
 			<Item Name="Override Joystick.vi" Type="VI" URL="../Override Joystick.vi"/>
 			<Item Name="Align Cup.vi" Type="VI" URL="../Align Cup.vi"/>
 			<Item Name="TimeTasker.vi" Type="VI" URL="../TimeTasker.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
+			<Item Name="Moderate Turret Microswitches.vi" Type="VI" URL="../Moderate Turret Microswitches.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
