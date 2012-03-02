@@ -645,6 +645,11 @@ KeepAliveTimeout 60
 				<Item Name="WPI_CANJaguar_SetSpeedReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/Configuration/WPI_CANJaguar_SetSpeedReference.vi"/>
 				<Item Name="WPI_CANJaguar_SpeedReference.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/CAN/Jaguar/SubVIs/WPI_CANJaguar_SpeedReference.ctl"/>
 				<Item Name="WPI_GyroSetGain.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Gyro/WPI_GyroSetGain.vi"/>
+				<Item Name="SkeletonVertexTrackState.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/SkeletonVertexTrackState.ctl"/>
+				<Item Name="Skeleton Vertex Index.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/Skeleton Vertex Index.ctl"/>
+				<Item Name="WPI_DriverStationGet Kinect Vertices.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Kinect Vertices.vi"/>
+				<Item Name="WPI_DriverStationGet Kinect Extra.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/DriverStation/WPI_DriverStationGet Kinect Extra.vi"/>
+				<Item Name="SkeletonTrackState.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/Kinect/SkeletonTrackState.ctl"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -657,6 +662,8 @@ KeepAliveTimeout 60
 			<Item Name="Align Cup.vi" Type="VI" URL="../Align Cup.vi"/>
 			<Item Name="TimeTasker.vi" Type="VI" URL="../TimeTasker.vi"/>
 			<Item Name="Moderate Turret Microswitches.vi" Type="VI" URL="../Moderate Turret Microswitches.vi"/>
+			<Item Name="Joints to Angle YZ.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle YZ.vi"/>
+			<Item Name="Joints to Angle XY.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle XY.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
