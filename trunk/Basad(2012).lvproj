@@ -127,6 +127,8 @@ KeepAliveTimeout 60
 				<Item Name="Set RPM.vi" Type="VI" URL="../Set RPM.vi"/>
 				<Item Name="LanchAngleAndSpeed_with DRAG.vi" Type="VI" URL="../LanchAngleAndSpeed_with DRAG.vi"/>
 				<Item Name="LanchAngleAndSpeed.vi" Type="VI" URL="../LanchAngleAndSpeed.vi"/>
+				<Item Name="ShooterMangement.vi" Type="VI" URL="../ShooterMangement.vi"/>
+				<Item Name="Turret Mangement.vi" Type="VI" URL="../Turret Mangement.vi"/>
 			</Item>
 			<Item Name="General" Type="Folder">
 				<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../Button2ToggleV2.1.vi"/>
@@ -136,6 +138,8 @@ KeepAliveTimeout 60
 				<Item Name="SimPID.vi" Type="VI" URL="../SimPID.vi"/>
 				<Item Name="Single Button Number.vi" Type="VI" URL="../Single Button Number.vi"/>
 				<Item Name="UpDownNone.vi" Type="VI" URL="../UpDownNone.vi"/>
+				<Item Name="override.vi" Type="VI" URL="../override.vi"/>
+				<Item Name="AI2Degree.vi" Type="VI" URL="../AI2Degree.vi"/>
 			</Item>
 			<Item Name="Drive" Type="Folder">
 				<Item Name="Dead Band.vi" Type="VI" URL="../Dead Band.vi"/>
@@ -664,6 +668,10 @@ KeepAliveTimeout 60
 			<Item Name="Moderate Turret Microswitches.vi" Type="VI" URL="../Moderate Turret Microswitches.vi"/>
 			<Item Name="Joints to Angle YZ.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle YZ.vi"/>
 			<Item Name="Joints to Angle XY.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle XY.vi"/>
+			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
+			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
+			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
+			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
