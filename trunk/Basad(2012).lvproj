@@ -152,6 +152,7 @@ KeepAliveTimeout 60
 			<Item Name="Collecting" Type="Folder">
 				<Item Name="Ball Stack.vi" Type="VI" URL="../Ball Stack.vi"/>
 				<Item Name="New Ball Stack.vi" Type="VI" URL="../New Ball Stack.vi"/>
+				<Item Name="cupStateGlobal.vi" Type="VI" URL="../cupStateGlobal.vi"/>
 			</Item>
 			<Item Name="Traget" Type="Folder">
 				<Item Name="Servo-Centerization.vi" Type="VI" URL="../Servo-Centerization.vi"/>
@@ -668,10 +669,6 @@ KeepAliveTimeout 60
 			<Item Name="Moderate Turret Microswitches.vi" Type="VI" URL="../Moderate Turret Microswitches.vi"/>
 			<Item Name="Joints to Angle YZ.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle YZ.vi"/>
 			<Item Name="Joints to Angle XY.vi" Type="VI" URL="../Kinect Gesture Processing Example/Joints to Angle XY.vi"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
