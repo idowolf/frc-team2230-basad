@@ -33,6 +33,8 @@
 		<Item Name="Get Correct Target.vi" Type="VI" URL="../Get Correct Target.vi"/>
 		<Item Name="hotSpotsFinder.vi" Type="VI" URL="../hotSpotsFinder.vi"/>
 		<Item Name="hotSpotsD2T.vi" Type="VI" URL="../hotSpotsD2T.vi"/>
+		<Item Name="InfoTransferGlobal.vi" Type="VI" URL="../../InfoTransferGlobal.vi"/>
+		<Item Name="Key Pressed.vi" Type="VI" URL="../../Key Pressed.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
@@ -113,6 +115,8 @@
 			<Item Name="Button2Toggle.vi" Type="VI" URL="../../Button2Toggle.vi"/>
 			<Item Name="ping.vi" Type="VI" URL="../ping.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="../../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvinput.dll"/>
+			<Item Name="Button2ToggleV2.0.vi" Type="VI" URL="../../Button2ToggleV2.0.vi"/>
+			<Item Name="Button2ToggleV2.1.vi" Type="VI" URL="../../Button2ToggleV2.1.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC PC Dashboard" Type="EXE">
