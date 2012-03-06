@@ -35,6 +35,7 @@
 		<Item Name="hotSpotsD2T.vi" Type="VI" URL="../hotSpotsD2T.vi"/>
 		<Item Name="InfoTransferGlobal.vi" Type="VI" URL="../../InfoTransferGlobal.vi"/>
 		<Item Name="Key Pressed.vi" Type="VI" URL="../../Key Pressed.vi"/>
+		<Item Name="KBoverRider.vi" Type="VI" URL="../KBoverRider.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
